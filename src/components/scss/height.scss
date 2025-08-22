@@ -1,0 +1,16 @@
+$dashboard-height: calc(100vh - 97px);
+$screen-height: calc(100vh - 180px);
+$screen-height-md: calc(100vh - 237px);
+$min-screen-height: 400px;
+
+
+.min-screen-height { min-height: $min-screen-height;}
+
+.sidenav-app .dashboard-height { height: calc(100vh - 2rem);}
+.dashboard-height { height: calc(100vh - 97px);}
+
+.sidenav-app .screen-height { height: calc(100vh - 6rem);}
+.screen-height { height: calc(100vh - 180px);}
+
+.sidenav-app .screen-height-md { height: calc(100vh - 9.5rem);}
+.screen-height-md { height: calc(100vh - 237px);}

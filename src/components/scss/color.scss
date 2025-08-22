@@ -1,0 +1,115 @@
+/* colours */
+$c-bg: #F3F3FA;
+$c-text: #475569;
+$c-text-light: #64748b;
+$c-border: #f1f5f9;
+$c-border-dark: #cbd5e1;
+$c-primary: #73B0F4;
+$c-dark: #1f2937;
+
+// social media
+$c-facebook: #3b5998;
+$c-twitter: #55acee;
+$c-instagram: #405de6;
+$c-youtube: #cd201f;
+$c-pinterest: #bd081c;
+$c-linkedin: #0077b5;
+$c-microsoft: #D73A17;
+
+$c-red: #d95565;
+$c-red-dark: #c53a4b;
+$c-red-alt: #e64154;
+
+$c-pink: #ed649d;
+$c-pink-dark: #d53a7b;
+$c-pink-alt: #ee4c90;
+
+$c-green: #10b981;
+$c-green-dark: #1d9d50;
+$c-green-alt: #1fcb69;
+
+$c-yellow: #f0df61;
+$c-yellow-dark: #d6c544;
+$c-yellow-alt: #f0d931;
+
+$c-blue: #73B0F4;
+$c-darkblue: #3A4488;
+$c-orange: #F0AA61;
+$c-tint: #FBFBFF;
+$c-purple: #6363AC;
+$c-purple-alt: #5252af;
+$c-darkpurple: #556CB6;
+
+
+$c-blue-gradient-90deg: linear-gradient(90deg, #4A32E3, #875FDA);
+$c-orange-gradient-90deg: linear-gradient(90deg, #FD7D0A, #fde8a9);
+$c-red-gradient-90deg: linear-gradient(90deg, #f42121, #c41b1b);
+$c-green-gradient-90deg: linear-gradient(90deg, #1d9d50, #21f17b);
+
+
+.gradient-orange-90 {
+    background: $c-orange-gradient-90deg;
+}
+
+.gradient-red-90 {
+    background: $c-red-gradient-90deg;
+}
+
+.gradient-green-90 {
+    background: $c-green-gradient-90deg;
+}
+
+.gradient-hover-green {
+    background: linear-gradient(135deg, $c-green-alt, transparent) $c-green;
+    transition: background-color 0.35s;
+}
+.gradient-hover-green:hover, .gradient-hover-green:focus {
+    background-color: $c-green-dark;
+}
+
+.gradient-hover-red {
+    background: linear-gradient(135deg, $c-red-alt, transparent) $c-red;
+    transition: background-color 0.35s;
+}
+.gradient-hover-red:hover, .gradient-hover-red:focus {
+    background-color: $c-red-dark;
+}
+
+.gradient-hover-pink {
+    background: linear-gradient(135deg, $c-pink-alt, transparent) $c-pink;
+    transition: background-color 0.35s;
+}
+.gradient-hover-pink:hover, .gradient-hover-pink:focus {
+    background-color: $c-pink-dark;
+}
+
+.gradient-hover-yellow {
+    background: linear-gradient(135deg, $c-yellow-alt, transparent) $c-yellow;
+    transition: background-color 0.35s;
+}
+.gradient-hover-yellow:hover, .gradient-hover-yellow:focus {
+    background-color: $c-yellow-dark;
+}
+
+.gradient-blue-90 {
+    background: linear-gradient(90deg, #3b82f6, #1495da) #0077b5;
+    transition: background-color 0.3s;
+}
+
+.gradient-blue-90:hover, .gradient-blue-90:focus {
+    background-color: #1b6ef3;
+}
+
+.bg-striped {
+    background: repeating-linear-gradient(
+  45deg,
+  #dbdde7,
+  #ffffff 10px,
+  #dbdde7 10px,
+  #ffffff 20px
+);
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(90deg, #0077b5, #405de6);
+}

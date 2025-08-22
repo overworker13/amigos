@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.truncate-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3rem; /* Adjust based on line height */
+  cursor: pointer;
+}
+
+.time-range {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #777777; /* Change to your desired color */
+}
+
+.time {
+  position: relative;
+}
+
+.time sup {
+  font-size: 10px;
+  position: relative;
+  top: -0.5em;
+}
+
+.dash {
+  margin: 0 4px;
+}
+
+.input-phone-number input:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}

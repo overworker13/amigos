@@ -1,0 +1,8 @@
+{
+  "development": {
+    "server_url": "https://api.amigos.kz"
+  },
+  "production": {
+    "server_url": "https://api.amigos.kz"
+  }
+}

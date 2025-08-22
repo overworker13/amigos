@@ -1,0 +1,67 @@
+.CalendarDay__selected_span {
+  background: #5fa5f9;
+  color: white;
+  border: 1px solid #2a2e31;
+}
+
+.CalendarDay__selected {
+  background: #2a2e31;
+  color: white;
+}
+
+.CalendarDay__selected:hover {
+  background: #2a2e31;
+  color: white;
+}
+
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span {
+  background: #5fa5f9;
+  color: white;
+}
+
+.DateInput {
+  background: transparent;
+}
+.DateRangePickerInput__withBorder {
+  border: none;
+}
+
+.DateInput_input {
+  border-radius: 50px;
+  border-bottom: 0px !important;
+  font-size: 13px;
+}
+
+.DateRangePickerInput {
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.datepicker-modal .SingleDatePickerInput input {
+  padding-left: 0;
+}
+
+.datepicker-modal .SingleDatePickerInput .DateInput__small {
+  width: 100px;
+}
+
+.datepicker-modal .SingleDatePickerInput_clearDate {
+  right: -10px;
+  top: 52%;
+}
+
+.datepicker-modal .SingleDatePickerInput_clearDate__default:focus,
+.datepicker-modal .SingleDatePickerInput_clearDate__default:hover {
+  background: unset;
+}
+
+.datepicker-small .SingleDatePickerInput,
+.datepicker-small .SingleDatePickerInput input {
+  background: transparent;
+  font-weight: 600;
+}
+
+.datepicker-small .SingleDatePickerInput .DateInput__small {
+  width: 83px;
+}
